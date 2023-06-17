@@ -1,0 +1,1101 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+*{margin:0px;padding:0px;}
+body{
+	font-family: 'Work Sans', sans-serif;
+	font-size:16px;
+
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Oswald', sans-serif;
+	font-weight:600;
+}
+section{
+	padding:50px 0px;
+}
+.topBarMain{
+    background: #F5F5F5;
+}
+.container {
+    width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+
+.topBarWrapper {
+    overflow: hidden;
+}
+
+.phone {
+    width: 212px;
+    float: left;
+    padding: 25px 10px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.email {
+    width: 676px;
+    float: left;
+    padding: 25px 10px;
+}
+.social {
+    width: 210px;
+    float: left;
+}
+
+.social i {
+    display: block;
+    float: left;
+    padding: 25px 25px;
+    border-right: 1px solid #ddd;
+    color: #111;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.social i:first-child {
+    border-left: 1px solid #ddd;
+}
+.phone i {
+    color: #fb5200;
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.email i {
+    color: #fb5200;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+.social i:hover {
+    color: #fb5200;
+}
+.topBarMenuWrapper {
+    overflow: hidden;
+}
+
+.logo {
+    width: 150px;
+    float: left;
+    margin-top: 22px;
+    cursor: pointer;
+}
+
+.menu {
+    width: 950px;
+    float: left;
+}
+
+.menu ul {
+    list-style: none;
+    float: right;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: oswald;
+    font-weight: 700;
+    color: #222;
+    transition: 0.3s;
+    padding: 30px 15px;
+    display: block;
+}
+
+.menu ul li a:hover {
+    color: #fb5200;
+}
+section#slider {
+    background: url(image/slide-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.sliderContent {
+    width: 650px;
+    color: white;
+}
+
+.sliderContent h1 {
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.sliderContent p {
+    width: 65%;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.sliderContent button {
+    background: #fb5200;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Work Sans';
+    cursor: pointer;
+    transition: 0.5s;
+    margin-bottom: 20px;
+}
+
+.sliderContent button:hover {
+    background: #252525;
+}
+.sliderNav {
+    width: 65px;
+    margin: auto;
+}
+
+.sliderNav span {
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    border: 5px solid #ddd;
+    border-radius: 100%;
+    float: left;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.sliderNav span:hover {
+    background: #fb5200;
+    border-color: #fb5200;
+}
+.serviceBoxWrapper {
+    overflow: hidden;
+}
+
+.serviceSingleBox {
+    width: 270px;
+    float: left;
+    background: white;
+    padding: 35px 0px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+section#primaryService {
+    background: #F5F6F6;
+}
+
+.sBoxLogo {
+    text-align: center;
+}
+
+.sBoxLogo i {
+    font-size: 50px;
+    color: #fb5200;
+    margin-bottom: 25px;
+}
+
+.sBoxTitle {
+    text-align: center;
+}
+
+.sBoxTitle h2 {
+    font-size: 22px;
+    color: #333333;
+    cursor: pointer;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.sBoxDesc {
+    text-align: center;
+}
+
+.sBoxDesc p {
+    width: 200px;
+    margin: auto;
+    color: #656565;
+    margin-bottom: 25px;
+}
+.sBoxLink {
+    text-align: center;
+}
+
+.sBoxLink a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #fb5200;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.serviceSingleBox:hover {
+    background: #fb5200;
+}
+
+.serviceSingleBox:hover .sBoxLogo i {
+    color: white;
+}
+
+.serviceSingleBox:hover .sBoxTitle h2 {
+    color: white;
+}
+.serviceSingleBox:hover .sBoxDesc p {
+    color: white;
+}
+.serviceSingleBox:hover .sBoxLink a {
+    color: white;
+}
+.activeBox {
+    background: #fb5200;
+}
+.activeBox .sBoxLogo i {
+    color: white;
+}
+.activeBox .sBoxTitle h2 {
+    color: white;
+}
+.activeBox .sBoxDesc p {
+    color: white;
+}
+.activeBox .sBoxLink a {
+    color: white;
+}
+.ourTeamWrapper {
+    overflow: hidden;
+}
+
+.teamLeftImage {
+    width: 48%;
+    float: left;
+    overflow: hidden;
+}
+
+.teamLeftImage img {
+    width: 100%;
+	transition: 0.5s;
+}
+
+.teamRightContent {
+    width: 48%;
+    float: right;
+}
+
+.rContentDesc h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #000;
+    cursor: default;
+}
+
+.rContentDesc p {
+    color: #333;
+    width: 88%;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+.rContentInfo ul {
+    list-style: none;
+    float: left;
+    width: 200px;
+}
+
+.rContentInfo {
+    overflow: hidden;
+    margin-bottom: 35px;
+}
+
+.rContentInfo ul li {
+    line-height: 40px;
+}
+
+.rContentInfo ul li a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.teamBtn button {
+    background: #fb5200;
+    color: white;
+    padding: 20px 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Oswald';
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.teamBtn button:hover {
+    background: #252525;
+}
+
+.rContentInfo ul li a:hover {
+    color: #fb5200;
+}
+.rContentInfo ul li a i {
+    margin-right: 5px;
+}
+
+.teamLeftImage img:hover {
+    transform: scale(1.1);
+}
+section#blogSection {
+    background: linear-gradient(rgb(0 0 0 / 55%), rgb(0 0 0 / 55%)),    url(image/customerNum.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.bBoxWrapper {
+    overflow: hidden;
+}
+
+.bSingleBox {
+    width: 270px;
+    float: left;
+    color: white;
+}
+
+.bBoxIcon {
+    text-align: center;
+}
+
+.bBoxIcon i {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.bBoxNumber {
+    text-align: center;
+}
+
+.bBoxNumber h2 {
+    font-size: 60px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.bBoxTitle {
+    text-align: center;
+}
+
+.bBoxTitle h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+section#mission {}
+
+.sectionDesc {
+    text-align: center;
+}
+
+.sectionDesc h1 {
+    font-size: 50px;
+    font-weight: 500;
+    color: #000;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    position: relative;
+    padding: 12px;
+}
+
+.sectionDesc h1:after {
+    position: absolute;
+    content: "";
+    width: 75px;
+    border: 2px solid #fb5200;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2px;
+}
+
+.sectionDesc p {
+    width: 42%;
+    margin: auto;
+    line-height: 25px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.missionBoxWrapper {
+    overflow: hidden;
+}
+
+.mSingleBox {
+    width: 270px;
+    float: left;
+    margin-right: 15px;
+}
+
+.mBoxImg img {
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.mBoxInfo h2 {
+    color: #222;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.mBoxInfo p {
+    width: 90%;
+    color: #333;
+    line-height: 25px;
+}
+.priceBoxWrapper {
+    overflow: hidden;
+}
+
+.priceSingleBox {
+    width: 320px;
+    float: left;
+    border: 1px solid #eee;
+    padding: 35px;
+    padding-right: 0;
+    box-shadow: 0 0 40px 3px rgb(0 0 0 / 5%);
+    margin-right: 23px;
+    border-radius: 5px;
+}
+
+.priceSingleBox h4 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.priceSingleBox b {
+    font-size: 50px;
+}
+
+.priceSingleBox span {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.priceSingleBox ul {
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.priceSingleBox ul li {
+    line-height: 45px;
+    color: #57647c;
+}
+
+.priceSingleBox ul li i {
+    color: #fb5200;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.priceSingleBox button {
+    background: #fb5200;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Oswald';
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.priceSingleBox button:hover {
+    background: #252525;
+}
+.ideaWrapper {
+    overflow: hidden;
+}
+
+.ideaLeftImg {
+    width: 50%;
+    float: left;
+    background: url(image/idea1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 561px;
+}
+
+.ideaRightContent {
+    width: 50%;
+    float: right;
+    background: #222222;
+    color: #fff;
+}
+.iRightContentDesc {
+    padding: 40px;
+    padding-right: 0;
+}
+
+.iRightContentDesc h1 {
+    font-size: 35px;
+    letter-spacing: 3px;
+    margin-bottom: 35px;
+}
+
+.iRightContentDesc p {
+    width: 95%;
+    line-height: 25px;
+}
+
+.rContentBoxWrapper {
+    overflow: hidden;
+}
+
+.rContentSingleBox {
+    width: 270px;
+    float: left;
+    overflow: hidden;
+    padding: 40px;
+    padding-right: 0;
+}
+
+.sBoxIcon i {
+    font-size: 50px;
+    color: #fb5200;
+}
+
+.sBoxIcon {
+    width: 70px;
+    float: left;
+}
+
+.sBoxInfo {
+    float: right;
+    width: 200px;
+}
+
+.sBoxInfo h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.sBoxInfo p {line-height: 25px;}
+.teamBoxWrapper {
+    overflow: hidden;
+}
+
+.teamSingleBox {
+    width: 270px;
+    float: left;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 13px;
+}
+
+.teamBoxImg img {
+    max-width: 100%;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.teamBoxInfo {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.teamBoxInfo h2 {
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.teamBoxInfo p {
+    color: #333;
+    letter-spacing: 1px;
+}
+.teamBoxImg {
+    position: relative;
+    overflow: hidden;
+}
+
+.teamSocial {
+    position: absolute;
+    bottom: 100px;
+    text-align: center;
+    width: 100%;
+    left: 40px;
+}
+
+.teamSocial a {
+    background: red;
+    padding: 10px;
+    border-radius: 100%;
+    color: white;
+    display: block;
+    text-decoration: none;
+    float: left;
+    margin-right: 10px;
+	transition:0.3s;
+}
+.teamSocial a:hover{
+	background:white !important;
+	color:#333;
+	
+}
+.teamSocial a:first-child{
+	background:#4267B2;
+	transition:0.80s;
+	opacity:0;
+}
+.teamSocial a:nth-child(2){
+	background:#00acee;
+	transition:0.60s;
+	opacity:0;
+}
+.teamSocial a:nth-child(3){
+	background:#db4a39;
+	transition:0.40s;
+	opacity:0;
+}
+.teamSocial a:last-child{
+	background:#0072b1;
+	transition:0.20s;
+	opacity:0;
+}
+.teamSingleBox:hover .teamBoxImg .teamSocial a:first-child{
+	transform:translateY(20px);
+	opacity:1;
+}
+.teamSingleBox:hover .teamBoxImg .teamSocial a:nth-child(2){
+	transform:translateY(20px);
+	opacity:1;
+}.teamSingleBox:hover .teamBoxImg .teamSocial a:nth-child(3){
+	transform:translateY(20px);
+	opacity:1;
+}.teamSingleBox:hover .teamBoxImg .teamSocial a:last-child{
+	transform:translateY(20px);
+	opacity:1;
+}
+.teamSingleBox:hover .teamBoxImg img {
+    transform: scale(1.1);
+}
+.pSingleBoxWrapper {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pSingleBox {
+    width: 350px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.pSingleBox img {
+    max-width: 100%;
+}
+
+.pSingleBoxInfo {
+    position: absolute;
+    bottom: 0px;
+    padding: 30px;
+    padding-right: 0;
+    color: white;
+    background: linear-gradient(to top, black, transparent);
+}
+
+.pSingleBoxInfo a {
+    color: white;
+    font-weight: 600;
+    margin-bottom: 3px;
+    display: block;
+}
+
+.pSingleBoxMeta {
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+.pSingleBoxInfo span {
+    text-transform: capitalize;
+    font-weight: 600;
+    cursor: pointer;
+    transform: translateX(-145px);
+    display: block;
+}
+
+.pSingleBox:hover .pSingleBoxInfo .pSingleBoxMeta {
+    margin-bottom: 40px;
+}
+
+.pSingleBox:hover .pSingleBoxInfo span {
+    transform: translateX(0px);
+    transition: 0.3s;
+    transition-delay: 0.3s;
+}
+section#projects {
+    background: #F5F6F6;
+}
+.newsBoxWrapper {
+    overflow: hidden;
+}
+
+.newsSingleBox {
+    width: 350px;
+    float: left;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    margin-right: 28px;
+}
+
+.nSingleBoxImg img {
+    max-width: 100%;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+.nSingleBoxText {
+    padding: 25px;
+    padding-right: 0;
+    padding-top: 0;
+}
+
+.nSingleBoxMeta {
+    color: #777;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+}
+.nSingleBoxMeta span {
+    float: left;
+    width: 150px;
+}
+
+.nSingleBoxMeta span:last-child {
+    margin-left: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.nSingleBoxMeta:after {
+    position: absolute;
+    content: "";
+    width: 20px;
+    border: 1px solid #fb5200;
+    left: 115px;
+    bottom: 7px;
+}
+
+.nSingleBoxMeta span:last-child:hover {
+    color: #fb5200;
+}
+
+.nSingleBoxTextDesc h2 {
+    color: #333333;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+.nSingleBoxTextDesc p {
+    color: #333;
+    width: 80%;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+.nSingleBoxTextDesc h2:hover {
+    color: #fb5200;
+    cursor: pointer;
+}
+
+.nSingleBoxTextDesc span {
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #fb5200;
+    cursor: pointer;
+}
+.nSingleBoxImg img:hover {
+    transform: scale(1.1);
+}
+
+.nSingleBoxImg {
+    overflow: hidden;
+}
+footer#footer {
+    background: #1A1A1A;
+    color: #fff;
+}
+
+.fBoxWrapper {
+    overflow: hidden;
+    padding-top: 150px;
+}
+
+.fBox {
+    width: 270px;
+    float: left;
+    margin-right: 20px;
+}
+
+.fBox:last-child {
+    margin-right: 0;
+}
+
+.fBox h3 {
+    margin-bottom: 35px;
+    letter-spacing: 2px;
+}
+
+.fBox p {
+    color: #ababab;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+.fRPost {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.fRPostMeta {
+    width: 55px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 0px;
+    float: left;
+    margin-right: 15px;
+}
+
+.fBoxSocial a {
+    color: #ababab;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+.fBoxSocial {
+    margin: 20px 0px;
+    cursor: default;
+}
+
+.fBoxSocial a i {
+    font-size: 20px;
+}
+
+.fBoxSocial a:hover {
+    color: #fb5200;
+}
+
+.fBoxCOntact i {
+    width: 40px;
+    float: left;
+    font-size: 20px;
+    color: #fb5200;
+}
+
+.fBoxCOntact p {
+    float: left;
+    width: 230px;
+}
+
+ul#ufLinks {
+    list-style: none;
+}
+
+ul#ufLinks li {
+    border-bottom: 1px dashed #ddd;
+    padding: 10px;
+}
+
+ul#ufLinks li:last-child {
+    border-bottom: none;
+}
+
+ul#ufLinks li a {
+    text-decoration: none;
+    color: #ababab;
+    transition: 0.3s;
+}
+
+ul#ufLinks li a i {
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+ul#ufLinks li a:hover {
+    color: #fb5200;
+}
+
+.fRPostMeta strong {
+    font-size: 18px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.fRPostMeta span {
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.fRPostDesc h4 {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.fRPostDesc span {
+    display: inline-block;
+    margin-right: 10px;
+    color: #7b7b7b;
+}
+
+.fRPostDesc span i {
+    margin-right: 5px;
+}
+.copyWriteContainer {
+    border-top: 1px dotted #ddd;
+    padding: 40px 0px;
+}
+
+.copyWriteText {
+    color: #ababab;
+    width: 48%;
+    float: left;
+}
+
+.copyWriteMenu {
+    width: 50%;
+    float: right;
+}
+
+.copyWriteContainer .container {
+    overflow: hidden;
+}
+
+.copyWriteMenu ul {
+    list-style: none;
+    float: right;
+}
+
+.copyWriteMenu ul li {
+    float: left;
+}
+
+.copyWriteMenu ul li a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: #999;
+}
+section#subscribe .container {
+}
+
+.subBoxWrapper {
+    overflow: hidden;
+    background: #fb5200;
+    color: white;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+
+.subSingleBox {
+    width: 320px;
+    float: left;
+    padding: 30px;
+}
+
+.subSingleBox h2 {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.inputBoxes input:first-child {width: 84%;padding: 15px;text-transform: capitalize;font-size: 15px;font-family: 'Oswald';font-weight: 700;border: none;border-bottom-left-radius: 50px;border-top-left-radius: 50px;letter-spacing: 1px;outline: none;}
+
+.inputBoxes {
+    position: relative;
+}
+
+.inputBoxes input:last-child {
+    padding: 15px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    background: black;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 16px;
+    width: 120px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+}
+
+.subSingleBox p {
+    line-height: 30px;
+}
+
+.subFollowIcon {
+    overflow: hidden;
+}
+
+.subFollowIcon a {
+    width: 30px;
+    height: 30px;
+    float: left;
+    border: 1px solid white;
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+    border-radius: 100%;
+    margin-right: 15px;
+    color: white;
+    transition: 0.3s;
+}
+
+section#subscribe {
+    position: relative;
+    margin-bottom: -145px;
+}
+
+.subFollowIcon a:hover {
+    background: white;
+    color: #333;
+}
+.copyWriteText a {
+    font-size: 17px;
+    font-weight: 800;
+    color: #fb5200;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.copyWriteText a:hover {
+    text-decoration: underline;
+}
